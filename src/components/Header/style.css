@@ -1,0 +1,28 @@
+/* Estilos para o elemento header */
+header {
+    display: flex; /* Layout flexível */
+    align-items: center; /* Alinha itens verticalmente ao centro */
+    justify-content: space-around; /* Distribui espaço entre os itens */
+    width: 100%; /* Largura total */
+    height: 80px; /* Altura fixa */
+    background-color: black; /* Fundo preto */
+}
+
+/* Estilos para o logotipo */
+.logo {
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 30px; /* Tamanho da fonte */
+    color: #fff; /* Cor branca */
+    font-weight: bold; /* Negrito */
+}
+
+/* Estilos para o link "Meus Filmes" */
+.meus-filmes {
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Cursor de ponteiro */
+    background-color: #fff; /* Fundo branco */
+    padding: 5px 14px; /* Preenchimento interno */
+    color: black; /* Cor do texto */
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 13px; /* Tamanho da fonte */
+}

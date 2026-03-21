@@ -1,0 +1,20 @@
+/* Reset global de margens e preenchimentos para todos os elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Define o box-sizing para incluir bordas e preenchimentos na largura/altura */
+}
+
+/* Estilos para o corpo da página */
+body {
+  font-family: sans-serif; /* Define a fonte padrão */
+}
+
+/* Estilos para a classe 'app' */
+.app {
+  display: flex; /* Usa flexbox para layout */
+  width: 100%; /* Largura total */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  flex-direction: column; /* Direção vertical */
+}

@@ -1,0 +1,84 @@
+/* Estilos para a seção de informações do filme */
+.filme-info {
+    margin: 0 auto; /* Centraliza horizontalmente */
+    margin-top: 18px; /* Margem superior */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Direção vertical */
+    max-width: 800px; /* Largura máxima */
+    padding: 0 8px; /* Preenchimento lateral */
+}
+
+/* Estilos para o título h1 do filme */
+.filme-info h1 {
+    margin: 14px 0; /* Margem vertical */
+}
+
+/* Estilos para a imagem do filme */
+.filme-info img {
+    border-radius: 8px; /* Bordas arredondadas */
+    width: 900px; /* Largura */
+    max-width: 100%; /* Largura máxima responsiva */
+    max-height: 340px; /* Altura máxima */
+    object-fit: cover; /* Ajusta a imagem sem distorcer */
+}
+
+/* Estilos para o subtítulo h3 (Sinopse) */
+.filme-info h3 {
+    margin-top: 14px; /* Margem superior */
+}
+
+/* Estilos para o texto da sinopse */
+.filme-info span {
+    margin: 8px 0; /* Margem vertical */
+}
+
+/* Estilos para os botões na área de botões */
+.area-buttons button {
+    margin-right: 12px; /* Margem direita */
+    margin-top: 14px; /* Margem superior */
+    margin-left: 0; /* Margem esquerda */
+    font-size: 20px; /* Tamanho da fonte */
+    border: 0; /* Sem borda */
+    outline: none; /* Remove outline */
+    padding: 12px; /* Preenchimento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: all 0.5s; /* Transição suave */
+}
+/* Estilos para o hover dos botões */
+.area-buttons button:hover {
+    background-color: brown; /* Fundo marrom no hover */
+    color: #fff; /* Texto branco */
+}
+
+/* Estilos para os links dentro dos botões */
+.area-buttons a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #000; /* Cor preta */
+    transition: all 0.5s; /* Transição suave */
+}
+/* Estilos para o hover dos links */
+.area-buttons a:hover {
+    color: #fff; /* Texto branco no hover */
+}
+
+/* Estilos para o botão de voltar à home */
+.button-home-two {
+    display: inline-block; /* Exibe como bloco inline */
+    align-self: flex-start; /* Alinha à esquerda no container flex */
+    margin-top: 14px; /* Margem superior */
+    padding: 12px; /* Preenchimento interno */
+    background-color: #116feb; /* Fundo azul */
+    color: #fff !important; /* Cor do texto branca (importante para sobrescrever) */
+    border: 0; /* Sem borda */
+    border-radius: 4px; /* Bordas arredondadas */
+    text-decoration: none; /* Remove sublinhado */
+    font-size: 20px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: all 0.5s; /* Transição suave */
+}
+/* Estilos para o hover do botão home */
+.button-home-two:hover {
+    background-color: #0d54a0; /* Fundo azul mais escuro no hover */
+    color: #fff !important; /* Mantém texto branco */
+}

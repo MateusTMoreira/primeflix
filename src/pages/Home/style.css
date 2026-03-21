@@ -1,0 +1,62 @@
+/* Estilos para a lista de filmes */
+.lista-filmes {
+    max-width: 800px; /* Largura máxima */
+    margin: 14px auto; /* Centraliza e margem superior */
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-direction: column; /* Direção vertical */
+}
+
+/* Estilos para o título dos filmes (strong) */
+.lista-filmes strong {
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Direção vertical */
+    align-items: center; /* Alinha ao centro */
+    justify-content: center; /* Justifica ao centro */
+    padding-top: 20px; /* Preenchimento superior */
+    margin-bottom: 5px; /* Margem inferior */
+    font-size: 22px; /* Tamanho da fonte */
+}
+
+/* Estilos para as imagens dos filmes */
+.lista-filmes img {
+    width: 600px; /* Largura */
+    max-width: 100%; /* Largura máxima responsiva */
+    max-height: 340px; /* Altura máxima */
+    margin-top: 5px; /* Margem superior */
+    border-radius: 7px 7px 0 0; /* Bordas arredondadas apenas no topo */
+    object-fit: cover; /* Ajusta a imagem */
+    display: block; /* Exibe como bloco */
+}
+
+/* Estilos para os links de acesso aos filmes */
+.lista-filmes a {
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    padding: 10px 0; /* Preenchimento vertical */
+    background-color: #116feb; /* Fundo azul */
+    color: #fff; /* Texto branco */
+    text-decoration: none; /* Remove sublinhado */
+    border-radius: 0 0 7px 7px; /* Bordas arredondadas apenas na base */
+    font-size: 24px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s ease; /* Transição suave */
+    margin-bottom: 20px; /* Margem inferior */
+}
+
+/* Estilos para o hover dos links */
+.lista-filmes a:hover {
+    background-color: #0d54a0; /* Fundo azul mais escuro no hover */
+}
+
+/* Estilos para a seção de loading */
+.loading {
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 14px; /* Margem superior */
+}
+
+

@@ -1,0 +1,64 @@
+/* Estilos para a página Meus Filmes */
+.meus-filmes {
+    margin-top: 24px; /* Margem superior */
+    display: flex; /* Layout flexível */
+    flex-direction: column; /* Direção vertical */
+    align-items: center; /* Alinha itens ao centro */
+}
+
+/* Estilos para o título h1 */
+.meus-filmes h1 {
+    margin-bottom: 14px; /* Margem inferior */
+}
+
+/* Estilos para o span de mensagem */
+.meus-filmes span {
+    font-size: 18px; /* Tamanho da fonte */
+}
+
+/* Estilos para a lista ul */
+.meus-filmes ul {
+    width: 720px; /* Largura fixa */
+}
+
+/* Estilos para os itens da lista li */
+.meus-filmes ul li {
+    list-style: none; /* Remove marcador da lista */
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaço entre itens */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-bottom: 14px; /* Margem inferior */
+}
+
+/* Estilos para as divs dentro dos li */
+.meus-filmes div {
+    display: flex; /* Layout flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+/* Estilos para os links dentro das divs */
+.meus-filmes div a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #116feb; /* Cor azul */
+    margin-right: 14px; /* Margem direita */
+}
+
+/* Estilos para o botão de voltar à home */
+.button-home {
+    border: none; /* Sem borda */
+    border-radius: 6px; /* Bordas arredondadas */
+    background-color: #116feb; /* Fundo azul */
+    margin-top: 14px; /* Margem superior */
+    color: #fff; /* Texto branco */
+    padding: 8px 16px; /* Preenchimento interno */
+    text-decoration: none; /* Remove sublinhado */
+    cursor: pointer; /* Cursor de ponteiro */
+    font-size: 14px; /* Tamanho da fonte */
+    transition: background-color 0.2s; /* Transição suave */
+}
+
+/* Estilos para o hover do botão home */
+.button-home:hover {
+    background-color: #0d54a0; /* Fundo azul mais escuro no hover */
+}
