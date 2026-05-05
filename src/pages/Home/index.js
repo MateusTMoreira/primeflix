@@ -4,7 +4,7 @@ import './style.css'; // Importa os estilos CSS da página
 import { useEffect, useState } from 'react'; // Importa hooks do React
 import api from '../../services/api'; // Importa a instância da API
 
-// URL de exemplo da API: https://api.themoviedb.org/3/movie/now_playing?api_key=372b8921b84a0ddeb13c3ae586035aeb&language=pt-BR
+
 
 function Home() {
     // Estado para armazenar a lista de filmes
@@ -18,7 +18,7 @@ function Home() {
             // Faz requisição para obter filmes em cartaz
             const response = await api.get("movie/now_playing", {
                 params: {
-                    api_key: "372b8921b84a0ddeb13c3ae586035aeb", // Chave da API
+                    api_key: "", // Coloque a chave da API
                     language: "pt-BR", // Idioma
                     page: 1, // Página da API
                 }
